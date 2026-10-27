@@ -1,5 +1,5 @@
 const completedRegex =
-	/(Just posted|Just completed) a ((?<distance>\d+\.\d{2}) (?<unit>km|mi) )?(?<activity>[\w /]+) (in|- (?<writtenText>[\S+ ]+) https:\/\/t\.co\/|with)/;
+	/(Just posted|Just completed) an? ((?<distance>\d+\.\d{2}) (?<unit>km|mi) )?(?<activity>[\w /]+) (in|- (?<writtenText>[\S+ ]+) https:\/\/t\.co\/|with)/;
 const linkRegex = /(.*)(https:\/\/t\.co\/.{10})(.*)/;
 
 class Tweet {
