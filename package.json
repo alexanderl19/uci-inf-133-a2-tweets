@@ -1,0 +1,21 @@
+{
+	"name": "a2-tweets",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"license": "ISC",
+	"author": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently -k \"tsc --watch\" \"live-server .\"",
+		"fmt": "oxfmt"
+	},
+	"devDependencies": {
+		"concurrently": "10.0.6",
+		"live-server": "1.2.2",
+		"oxfmt": "0.74.0",
+		"typescript": "7.0.2",
+		"wrangler": "4.153.0"
+	},
+	"packageManager": "pnpm@10.13.1"
+}
